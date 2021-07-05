@@ -3,7 +3,7 @@ body{
 }
 .container{
     display: flex;
-    margin-top: 60px;
+    margin-top: 8%;
     
 }
 .half-width{
@@ -40,8 +40,7 @@ body{
     background-image: url(images/7.png);
     background-repeat: no-repeat;
     background-size: 100%;
-    padding-bottom: 20%;
-    padding-top: 5%;       
+    padding-bottom: 20%;     
 }
 #Recipies{
     text-align: center;
@@ -49,4 +48,44 @@ body{
 }
 #h3{
     text-align: center;
+}
+.box{
+ box-shadow: 2px 2px 20px gray;
+ border-radius: 10px;
+ padding-inline-end:1.8%;
+ padding-inline-start:1.8%;
+ padding-block-start: 1.8%;
+ margin-top: 8%;
+}
+.image-size {  
+    border-radius: 20px;
+    border: 2px rgb(184, 167, 167) solid;
+     
+}
+.item-text{
+    text-align: center;
+    font-size: 35px;
+}
+.socil-media{
+    
+    text-align: center;
+}
+.number-like{
+    font-size: 45px;
+    text-align: center;
+}
+footer{
+    text-align: center;
+    background-color: rgb(37, 34, 34);
+    padding-bottom: 10%;
+   margin-top: 8%;
+}
+#color{
+    color: burlywood;
+}
+#restaurant{
+color: cyan;
+}
+#last-color{
+    color: rgb(22, 123, 163);
 }
